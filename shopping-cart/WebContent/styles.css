@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    border-radius: 20px;
+    border: 1px solid #555555;
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.search-button {
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
